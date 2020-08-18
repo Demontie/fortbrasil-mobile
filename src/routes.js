@@ -22,6 +22,7 @@ const tabRoutes = [
   { name: 'Profile', component: Profile },
 ];
 
+
 const globalOptionsTab = {
   unmountOnBlur: true,
   keyboardHidesTabBar: true,
