@@ -5,7 +5,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 
-
 import SignIn from '~/pages/SignIn';
 import SignUp from '~/pages/SignUp';
 
@@ -21,7 +20,6 @@ const tabRoutes = [
   { name: 'Stores', component: Stores },
   { name: 'Profile', component: Profile },
 ];
-
 
 const globalOptionsTab = {
   unmountOnBlur: true,
